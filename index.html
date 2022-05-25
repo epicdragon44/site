@@ -1,552 +1,253 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Daniel Wei</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:400|EB+Garamond:700|Tangerine|Ma+Shan+Zheng"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="welcome-splash">
+      <div class="vertically-center-in-screen">
+        <div class="left-column">
+          <h1 class="light">Hi, I'm</h1>
+          <h1 class="heavy">Daniel Wei</h1>
+          <h2 class="subtitle">
+            Programmer.<br />
+            Designer.<br />
+            Explorer.
+          </h2>
+        </div>
+        <div class="right-column">
+          <img
+            class="spinning-compass"
+            src="https://images.squarespace-cdn.com/content/v1/5f29d2f4762b8a4ff17796ff/1597214459112-UP9S6BGQ2FT1SOZ4OPXD/compass.gif"
+          />
+          <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a class="dragon" href="#justforfun">Here Be Dragons</a>
+          </nav>
+        </div>
+      </div>
+    </div>
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <div class="about-splash" id="about">
+      <h1 class="light">A little about myself.</h1>
+      <img
+        class="page-separator"
+        src="https://images.squarespace-cdn.com/content/v1/5b0324ea5b409b4a9180e326/1540643604649-LH21DNMH5GQSMQY2L8JE/mamaheaven+page+break+bottom.png"
+      />
+      <table>
+        <tr>
+          <td class="label">Full Name</td>
+          <td>Daniel Lawrence Wei</td>
+        </tr>
+        <tr>
+          <td class="label">Chinese Name</td>
+          <td class="chinese-name">魏昀广</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="label">University</td>
+          <td>Cornell University</td>
+        </tr>
+        <tr>
+          <td class="label">School</td>
+          <td>College of Arts and Sciences</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>& Bowers Computing and Information Science</td>
+        </tr>
+        <tr>
+          <td class="label">Graduation</td>
+          <td>May 2025</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="label">Major</td>
+          <td>Computer Science (B.A.)</td>
+        </tr>
+        <tr>
+          <td class="label">Minors</td>
+          <td>Dyson Business Minor for Engineers</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>& East Asian Studies</td>
+        </tr>
+      </table>
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+      <img height="128pt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/800px-Cornell_University_seal.svg.png">
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+      <p>
+        Inspired by a childhood spanning Shanghai, D.C., Baton Rouge, and
+        Houston, my mission is to build modern solutions to problems that span
+        technologies, industries, and communities.
+      </p>
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+      <table class="button-row">
+        <tr>
+          <td>
+            <a
+              class="dragon-button"
+              target="_blank"
+              href="https://1drv.ms/b/s!AnDM_XYwI-BVgfoKwYnSoL0jfuUKWA"
+              >Resumé</a
+            >
+          </td>
+          <td>
+            <a
+              class="dragon-button"
+              target="_blank"
+              href="https://www.linkedin.com/in/weidaniel15/"
+              >LinkedIn</a
+            >
+          </td>
+          <td>
+            <a
+              class="dragon-button"
+              target="_blank"
+              href="mailto:dlw266@cornell.edu"
+              >Contact</a
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <div class="small-buffer-zone"></div>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQEi8xUm1ciXOw/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=8VKvScO_-iq77ograkj6eCfdhc62AjF8OrpaqwAuHg0);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Daniel Wei</a></h1>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Projects</a></li>
-						<li><a href="#" data-nav-section="education">Initiatives</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Awards</a></li>
-						<li><a href="#" data-nav-section="skills">Clubs</a></li>
-					</ul>
-				</div>
-			</nav>
+    <div class="projects-splash" id="projects">
+      <div class="left-column">
+        <div class="section-header">
+          <h1 class="projects-header">Projects</h1>
+          <div class="animatron-jail">
+            <div class="animatron-1">
+              <img width="100px" src="seadragon.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-carousel">
+        <div class="item-wrapper-1" onclick="window.open('https://devpost.com/software/cask','mywindow');">
+          <div class="item-1">
+            <img class="item-cover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg"></img>
+            <div class="item-text">
+              <h3 class="item-title">Cask</h3>
+              <p class="item-descr">Cask is an Marketplace for Creatives that mints social media posts as NFTs. It won Best Design at the 2022 Cornell Fintech Club Hackathon.</p>
+            </div>
+            <div class="item-tech">
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrapper-1">
+          <div class="item-1" onclick="window.open('https://modulusedu.com/','mywindow');">
+            <img class="item-cover" src="https://htmlcolorcodes.com/assets/images/colors/navy-blue-color-solid-background-1920x1080.png"></img>
+            <div class="item-text">
+              <h3 class="item-title">Modulus</h3>
+              <p class="item-descr">Modulus is a peer-to-peer LMS built for nonprofits and tutors. It won Best Educational Impact at the Teens Take on COVID Hackathon in 2020.</p>
+            </div>
+            <div class="item-tech">
+              <span>React.js</span><span>Firebase</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrapper-1"><div class="item-2" style="visibility: hidden;"></div></div>
+        <div class="item-wrapper-1"><div class="item-2" style="visibility: hidden;"></div></div>
+      </div>
+    </div>
 
-		</aside>
+    <div class="large-buffer-zone"></div>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(https://lh3.googleusercontent.com/-1c31t9gOkc0/XgLd1kLxMqI/AAAAAAAAysg/c8CfCRmSITE0lTTvAVDexUS8eEyEGplkwCK8BGAsYHg/s0/2019-12-24.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1 style="color: white;">Daniel Wei</h1>
-						   					<h2 style="color: white;"><b>Aspiring Computer Scientist and Software Developer</b></h2>
-														<a href="https://www.facebook.com/profile.php?id=100012610291823"><i class="icon-facebook2"></i></a>
-														<a href="https://github.com/epicdragon44/"><i class="icon-github"></i></a>
-														<a href="https://www.instagram.com/danielwei15/"><i class="icon-instagram"></i></a>
-														<a href="https://www.linkedin.com/in/daniel-wei-12a959196/"><i class="icon-linkedin2"></i></a>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+    <div class="experience-splash" id="experience">
+      <div class="left-column">
+        <div class="section-header">
+          <h1 class="projects-header">Experience</h1>
+          <div class="animatron-jail">
+            <div class="animatron-2">
+              <img width="100px" src="chineseship.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item-carousel">
+        <div class="item-wrapper-2">
+          <div class="item-2">
+            <img class="item-cover" src=" https://t4.ftcdn.net/jpg/03/29/19/15/360_F_329191596_tRQiV7LZjTZtuPM09QyOS09HV1D9VimE.jpg"></img>
+            <div class="item-text">
+              <h3 class="item-title">WaveLab Global</h3>
+              <p class="item-descr"><b>Summer Intern</b><br><i>June 2019 - August 2019</i><br><br>Developed program to recover misconfigured network devices.</p>
+            </div>
+            <div class="item-tech">
+              <span>Java</span><span>TCP/IP</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrapper-2">
+          <div class="item-2">
+            <img class="item-cover" src="https://wallpaperaccess.com/full/1092732.jpg"></img>
+            <div class="item-text">
+              <h3 class="item-title">Tecmend</h3>
+              <p class="item-descr"><b>Part-Time Software Engineer</b><br><i>March 2021 - September 2021</i><br><br>Created full-stack integrations for various corporate clients.</p>
+            </div>
+            <div class="item-tech">
+              <span>React</span><span>SQL</span><span>APIs</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrapper-2">
+          <div class="item-2">
+            <img class="item-cover" src="https://kovifabrics.com/img/products/VI-CORIS7291.JPG"></img>
+            <div class="item-text">
+              <h3 class="item-title">Cornell DTI</h3>
+              <p class="item-descr"><b>Developer</b>   <i>2021 - 2022</i><br><b>Technical PM</b> <i>2022 - 2023</i><br><br>Led development of ClubView, a student organization platform.</p>
+            </div>
+            <div class="item-tech">
+              <span>React.js</span><span>Firebase</span>
+            </div>
+          </div>
+        </div>
+        <div class="item-wrapper-2"><div class="item-2" style="visibility: hidden;"></div></div>
+      </div>
+    </div>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<h2 class="colorlib-heading">About Me</h2>
-										<p><strong>Hi, I'm Daniel Wei, </strong>a student pursuing software development and computer science, with a strong emphasis on design and intersectionality with the arts and humanities. Currently attending Seven Lakes High School, Class of 2021.</p>
+    <div class="large-buffer-zone"></div>
 
-										<p>"Science and computer science is a liberal art, it’s something everyone should know how to use, at least, and harness in their life...<br>
-Technology alone is not enough...It’s technology married with liberal arts, married with the humanities, that yields us the result that make our hearts sing."<br><br>
+    <div class="dragon-splash" id="justforfun">
+      <div class="vertically-center">
+        <img height="240pt" src="https://images.squarespace-cdn.com/content/v1/589db2db8419c25ff481f95d/1588790987007-VEXBJ7PE9WO45OGL1TXI/Asset+3Mossrock.png">
+        <div class="right-title">
+          <h1 class="fun-title">You've reached</h1>
+          <h1 class="funner-title">The End of the World</h1>
+        </div>
+      </div>
+      <div class="vertically-center">
+        <div width="64vw" style="visibility: hidden;"></div>
+      <div class="bonus">
+        <span>What, you want to venture still further?</span>
+        <ul>
+          <li>A <a href="https://open.spotify.com/user/epicdragon44?si=720eee65db694dfb" target="_blank">Spotify profile</a> with 150+ playlists.</li>
+          <li>A <a href="https://dusty-macaroni-b26.notion.site/9bf2a6b847134ea8bf78ca9276694356?v=1b9f37d11cb54de8a981a54f09739f43" target="_blank">Notion board</a> rating every single one of the 40+ Korean and Chinese dramas I've watched.</li>
+          <li>Oh how I wish Republican China had been a bit more <a href="https://dusty-macaroni-b26.notion.site/kuaiyin-8955e3ba536f44b88cbe690e187d9b1d" target="_blank">creative</a> with their written phonetics.</li>
+          <li>My entire <a href="https://dusty-macaroni-b26.notion.site/Clothes-Inventory-1d82404ff3ae44d08e3be3d42f2a52a9" target="_blank">wardrobe</a> for no real good reason.</a></li>
+          <li><a href="https://www.instagram.com/danielwei15/" target="_blank">Instagram</a>, <a href="https://www.facebook.com/danielwei15/" target="_blank">Facebook</a>, <a href="https://github.com/epicdragon44" target="_blank">GitHub</a>, and <a href="https://twitter.com/fromdanielwei15" target="_blank">Twitter</a> if you're into that sort of thing.</li>
+        </ul>
+      </div>
+      </div>
+      <div class="small-buffer-zone"></div>
+    </div>
 
-<b>- Steve Jobs</b></p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-coffee"></i></span>
-										<h3>Java</h3>
-										<p>Maven, Swing<br><br></p>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Web Design</h3>
-										<p>UX/UI, HTML/CSS/JS, React</p>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-monitor"></i></span>
-										<h3>Linux</h3>
-										<p>Bash scripting<br><br><br></p>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-wi-fi"></i></span>
-										<h3>Networking</h3>
-										<p>TCP/IP and UDP<br><br><br></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading">Projects</h2>
-						</div>
-					</div>
-					<div>
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-heading">Operating Systems</p>
-						</div>
-						<div class="row row-pt-md">
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>InspireOS</h3>
-										<p>A Linux OS built to empower development out of the box.</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/inspirecs/inspireosiso">See on Github <i class="icon-github"></i></a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-heading">Desktop Applications</p>
-						</div>
-						<div class="row row-pt-md">
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>InspireKit</h3>
-										<p>A Linux app that lets you one-click-install common development toolsets.</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/inspirecs/InspireKit">See on Github <i class="icon-github"></i></a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-heading">Web Applications</p>
-						</div>
-						<div class="row row-pt-md">
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>Modulus</h3>
-										<p>An equitable, accessible, and free peer-to-peer education platform for everyone.<br> Won Silicon Valley Hacks Top Five Projects, and placed 5th in the world at CovLab Global.</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/Nano1337/modulus">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="https://moduluswebapp.herokuapp.com/SignIn">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-heading">Websites</p>
-						</div>
-						<div class="row row-pt-md">
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>Valence8</h3>
-										<p>A local student-led nonprofit organization</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/val8site">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="https://val8.org/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>TeenHacksHTX</h3>
-										<p>A hackathon for high schoolers in Houston</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/teenhackshtx">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="https://teenhackshtx.site/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>7L Biology Olympiad</h3>
-										<p>The Seven Lakes Biology Olympiad club website</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/biooly">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="http://biooly.sevenlakes.club/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>MFOL Katy</h3>
-										<p>The Katy chapter of March for our Lives</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/mfolkatysite">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="http://mfolkaty.site/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>7L Student Corps</h3>
-										<p>The Seven Lakes chapter of Student Corps</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/studentcorps">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="http://studentcorps.sevenlakes.club/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>InspireCS</h3>
-										<p>The educational nonprofit initiative</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/inspirecs/website">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="http://inspirecs.site/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<div class="desc">
-										<h3>Modulus Landing Page</h3>
-										<p>The landing page for the Modulus platform</p>
-										<p><a class="btn btn-primary btn-learn" href="https://github.com/epicdragon44/moduluswebsite">See on Github <i class="icon-github"></i></a></p>
-										<p><a class="btn btn-primary btn-learn" href="http://modulusplatform.site/">View Site <i class="icon-wi-fi"></i></a></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">Initiatives</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">InspireCS
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
-									         <div class="panel-body">
-									            <div class="row">
-										      			<p>InspireCS is a nonprofit initiative seeking to bridge the digital divide in Greater Houston by providing free classes in fundamental computer science to underprivileged communities. To do this, we partner with the local refugee center RSTX Houston, and we've received over a thousand dollars in grant money from the No Starch Press Foundation. Visit the website <a href="http://inspirecs.site/">here</a>.<br><br>
-																To make our work possible, we develop tools - such as InspireOS and the InspireKit - under the name of Inspire Software, the development department within the InspireCS initiative. Visit the website of Inspire Software <a href="http://inspireos.site/">here</a>.
-																<br><br><b>Position: Founder and Lead Manager</b></p>
-										      		</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">TeenHacksHTX
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-									            <p>
-																TeenHacksHTX is a student-led hackathon team that organizes various collaborative coding competitions across the Greater Houston landscape. Visit the website <a href="http://teenhackshtx.site/">here</a>.
-																<br><br><b>Position: Cofounder and Executive Director</b>
-															</p>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Periapsis Software
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-									            <p>
-																Periapsis is a Limited Liability Corporation delivering the Modulus web application, an online platform for teachers and students that makes online education extremely easy, with an intuitive course content delivery system, peer-to-peer course sharing, and an open library of free courses. Visit the website <a href="http://modulusplatform.site/">here</a>.
-																<br><br><b>Position: Cofounder, CEO, and Frontend Engineer</b>
-															</p>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">Experience and Programs</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-chevron-right"></i>
-					               </div>
-
-					               <div class="timeline-label">
-					                  <h2><a href="http://www.wave-lab.com/">Summer Intern at WaveLab, Inc.</a> <span>2019</span></h2>
-					                  <p>Developed a Java GUI tool which can be used for customers to retrieve a communication unit’s network configuration and/or to recover the unit’s network setup.<br></p>
-														<p>"As a high school student, he has shown in his work extraordinary talents in computer software design and implementation, detail orientated and willingness to put extra efforts, as well as professional thinking in coding and documentation. People with these highly equipped attributes are not very commonly seen in college graduates, or even software engineers with a few years of experience. I am surprised that I can find all these from a high school student, and I am sure he will do very well in his career in the future."
-														<br><br><i>- Simon Gan, Senior Software Engineer</i></p>
-					               </div>
-					            </div>
-					         </article>
-
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-chevron-right"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2>Leangap Class of 2020</h2>
-					                  <p>Accepted into Leangap's class of 2020, a four-week high school tech startup incubation summer program in U.C. Berkeley. <br>A total of 40 students are accepted every year, from an applicant pool of over 1,200.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <!--<article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-					                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
-					            </div>
-					         </article>
-
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>-->
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
-
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">Awards and Achievements</h2>
-						</div>
-					</div>
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<h3>Computer Science</h3>
-								<ul>
-									<li>USA Computing Olympiad Gold Competitor</li>
-									<li>Science Olympiad National 4th place medal in Detector Building</li>
-									<li>Fifth place in the world at CovLab Global, an international collegiate+ hackathon. <br>See the submission <a href="https://devpost.com/software/modulus">here</a></li>
-									<li>Fifth place in the nation at Silicon Valley Hacks, a west coast high school hackathon. <br>See the submission <a href="https://devpost.com/software/modulus-vwn2cl">here</a></li>
-									<li>Best Educational Impact at Teens Take on COVID. <br>See the submission <a href="https://devpost.com/software/modulus-vwn2cl">here</a></li>
-								</ul>
-								<br>
-                                <h3>Academic Test Scores</h3>
-								<ul>
-									<li>2019 PSAT: 1480 out of 1520</li>
-									<li>2019 August SAT: 1570 out of 1600</li>
-								</ul>
-								<br>
-								<h3>Other</h3>
-								<h4>Writing</h4>
-								<ul>
-									<li><a href="https://www.nytimes.com/2018/07/10/learning/summer-reading-contest-winner-week-2-on-ap-world-history-tries-to-trim-thousands-of-years-and-educators-revolt.html">First place</a> in The Ninth Annual New York Times Summer Reading Contest</li>
-									<li>Scholastic Art and Writing Gold Key award in 10th grade for Critical Essay</li>
-									<li>Scholastic Art and Writing Gold Key award in 11th grade for Short Story</li>
-								</ul>
-								<h4>Music</h4>
-								<ul>
-									<li>National Winner of the Preparatory for Collegiate Class of the Piano Guild</li>
-									<li>Symphony Region orchestra member in 9th and 10th grade; Area orchestra member in 11th grade</li>
-									<li>2nd chair and soloist in the TMEA All-State Honor Full Orchestra champions in the 2019-20 school year</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<h2 class="colorlib-heading animate-box">Clubs</h2>
-						</div>
-					</div>
-					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-								<h3>Leadership</h3>
-								<ul>
-									<li>Founder and Lead Manager of InspireCS</li>
-									<li>Cofounder and Executive Director of TeenHacksHTX</li>
-									<li>Cofounder of March for our Lives Katy</li>
-									<li>Cofounder and Copresident of Voyage Mentorship</li>
-									<li>President in the Tri-M National Music Honor Society</li>
-								</ul>
-                                <br><br>
-								<h3>Other</h3>
-								<ul>
-									<li>Member of Science Olympiad since 6th grade; Varsity Team since 10th grade</li>
-									<li>Member of the Alliance of Youth Leaders in the United States since 9th grade<br>Taught 30 English lessons to minority Junior High students over the course of more than a year, for a total of more than 60 hours of instruction.</li>
-									<li>Member of Spartans out Serving since 9th grade<br>Over 115 volunteer hours logged</li>
-									<li>Member of Mu Alpha Theta since 9th grade</li>
-									<li>Member of Amnesty International since 11th grade</li>
-									<li>Member of Seven Lakes Democrats since 11th grade</li>
-									<li>Member of Science National Honor Society since 11th grade</li>
-									<li>Member of National Honor Society since 11th grade</li>
-									<li>Member of Student Corps since 11th grade</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-
-
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+    <script src="script.js"></script>
+  </body>
 </html>

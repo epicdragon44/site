@@ -120,22 +120,30 @@ nav a:hover {
 }
 
 .about-splash p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: EB Garamond;
   font-size: 16pt;
   max-width: 54vw;
   margin-top: 36pt;
 }
 
 .about-splash table {
-  font-family: "Times New Roman", Times, serif;
+  font-family: EB Garamond;
   font-size: 16pt;
   margin: 36pt 0 42pt 0;
   border-left: 32pt solid rgba(252, 245, 229, 0);
 }
 
-.about-splash table td.label {
+td.label {
   min-width: 128pt;
   font-weight: bolder;
+}
+
+td.award-label {
+  min-width: 42pt;
+}
+
+td.position-label {
+  min-width: 64pt;
 }
 
 .chinese-name {
@@ -153,6 +161,8 @@ img.page-separator {
 a.dragon-button {
   font-size: 24pt;
   color: rgb(252, 245, 229);
+  text-decoration: none;
+  font-weight: 800;
 }
 
 a.dragon-button:hover {
@@ -165,6 +175,13 @@ a.dragon-button:hover {
 .projects-splash {
   height: 100vh;
   background-color: rgb(252, 245, 229);
+  padding-top: 64pt;
+}
+
+.experience-splash {
+  margin-top: -36pt;
+  height: 106vh;
+  background-color: black;
 }
 
 table.button-row {
@@ -182,6 +199,12 @@ table.button-row td {
 
 h1.projects-header {
   margin-top: 32pt;
+}
+
+h1.experience-header {
+  margin-top: 42pt;
+  /* color: rgb(252, 245, 229); */
+  color: white;
 }
 
 /* animation */
@@ -234,44 +257,68 @@ h1.projects-header {
   padding: 36pt;
 }
 
-.item-carousel {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
 /* X shape: https://www.onlygfx.com/wp-content/uploads/2018/07/8-grunge-x-brush-stroke-5.png */
 /* single brush: https://www.onlygfx.com/wp-content/uploads/2019/05/100-grunge-brush-strokes-39.png */
 /* circle: https://i.pinimg.com/originals/31/7f/52/317f52ff8083eaaca4bf31f671b7ffa0.png */
 .item-wrapper-1 {
-  background-image: url(https://i.pinimg.com/originals/31/7f/52/317f52ff8083eaaca4bf31f671b7ffa0.png);
-  background-size: contain;
+  padding: 32pt 24pt 32pt 24pt;
+}
+
+.item-wrapper-1:hover {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5b0324ea5b409b4a9180e326/1540643604649-LH21DNMH5GQSMQY2L8JE/mamaheaven+page+break+bottom.png);
+  background-size: 142pt;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 32pt;
+  background-position: bottom;
 }
 
 .item-wrapper-2 {
-  background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/06/dry-brush-stroke-2-1024x384.png);
+  /* background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/06/dry-brush-stroke-2-1024x384.png); */
   background-size: 500pt;
   background-repeat: no-repeat;
   background-position: center;
   padding: 32pt;
 }
 
+.item-carousel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
 .item-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
   width: 200pt;
   height: 240pt;
-  background-color: rgba(255, 255, 255, 0.96);
-  box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24);
+  background-color: #fff;
+  /* box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24); */
   transition: 0.24s;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: EB Garamond;
+
+  box-shadow:
+    /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 -10px 0 -5px #fff,
+    /* The second layer shadow */ 0 -10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 -20px 0 -10px #fff,
+    /* The third layer shadow */ 0 -20px 1px -9px rgba(0, 0, 0, 0.15);
+  /* Padding for demo purposes */
+  padding: 12pt;
 }
 
 .item-1:hover {
-  box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.48);
   transition: 0.24s;
-  margin: -5px 0 0 -5px;
+  margin: -5px 0 0 0;
+
+  box-shadow:
+    /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 -15px 0 -5px #fff,
+    /* The second layer shadow */ 0 -15px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 -30px 0 -10px #fff,
+    /* The third layer shadow */ 0 -30px 1px -9px rgba(0, 0, 0, 0.15);
+  /* Padding for demo purposes */
+
   cursor: pointer;
 }
 
@@ -299,11 +346,15 @@ h1.projects-header {
 
 .item-title {
   margin: 0;
+  font-family: EB Garamond;
+  font-size: 18pt;
 }
 
 .item-tech {
   display: flex;
   flex-direction: row-reverse;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .item-tech span {

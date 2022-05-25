@@ -186,7 +186,7 @@ h1.projects-header {
 
 /* animation */
 
-@keyframes slidein {
+/* @keyframes slidein {
   0% {
     margin-left: 0vw;
   }
@@ -208,7 +208,7 @@ h1.projects-header {
   100% {
     margin-left: 48vw;
   }
-}
+} */
 
 .animatron-1 {
   animation-duration: 8s;

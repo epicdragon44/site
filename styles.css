@@ -1,210 +1,210 @@
 html {
-  overflow: scroll;
-  overflow-x: hidden;
-  padding: 0;
-  overflow-y: scroll;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-  background: transparent; /* Optional: just make scrollbar invisible */
+    width: 0;
+    height: 0;
+    background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #ff0000;
+    background: #ff0000;
 }
 
 body {
-  margin: 0;
-  background-color: rgb(252, 245, 229);
+    margin: 0;
+    background-color: rgb(252, 245, 229);
 }
 
 .welcome-splash {
-  height: 100vh;
-  background-color: rgb(252, 245, 229);
+    height: 100vh;
+    background-color: rgb(252, 245, 229);
 }
 
 .vertically-center-in-screen {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  min-height: 90vh;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 90vh;
+    justify-content: space-between;
 }
 
 .vertically-center {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .left-column {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
 }
 
 h1 {
-  font-family: EB Garamond;
-  color: #111111;
-  font-size: 64pt;
-  margin: 0 0 0 0;
+    font-family: EB Garamond;
+    color: #111111;
+    font-size: 64pt;
+    margin: 0 0 0 0;
 }
 h1.light {
-  font-weight: 400;
+    font-weight: 400;
 }
 h1.heavy {
-  font-weight: 700;
+    font-weight: 700;
 }
 h2.subtitle {
-  font-family: "Times New Roman", Times, serif;
-  color: #111111;
-  font-size: 36pt;
-  margin: 0 0 0 0;
-  font-weight: 400;
-  margin-top: 1em;
+    font-family: "Times New Roman", Times, serif;
+    color: #111111;
+    font-size: 36pt;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    margin-top: 1em;
 }
 
 .right-column {
-  display: flex;
-  flex-direction: column;
-  height: 90vh;
-  margin-right: 5vw;
-  justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    margin-right: 5vw;
+    justify-content: space-around;
 }
 
 img.spinning-compass {
-  height: 192pt;
-  width: 192pt;
+    height: 192pt;
+    width: 192pt;
 }
 
 nav {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18pt;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 nav a {
-  color: #111111;
-  text-decoration: none;
-  margin: 6pt;
+    color: #111111;
+    text-decoration: none;
+    margin: 6pt;
 }
 
 nav a:hover {
-  background-image: url(https://cdn.pixabay.com/photo/2012/04/12/12/06/pointing-29723__340.png);
-  background-size: 24pt;
-  background-position: left;
-  background-repeat: no-repeat;
-  transition: fade 2s;
-  font-family: Tangerine;
-  font-size: 20pt;
+    background-image: url(https://cdn.pixabay.com/photo/2012/04/12/12/06/pointing-29723__340.png);
+    background-size: 24pt;
+    background-position: left;
+    background-repeat: no-repeat;
+    transition: fade 2s;
+    font-family: Tangerine;
+    font-size: 20pt;
 }
 
 .about-splash {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-  background-color: rgb(252, 245, 229);
-  color: rgb(252, 245, 229);
+    background-color: rgb(252, 245, 229);
+    color: rgb(252, 245, 229);
 }
 
 .about-splash h1.light {
-  color: rgb(252, 245, 229);
+    color: rgb(252, 245, 229);
 }
 
 .about-splash p {
-  font-family: EB Garamond;
-  font-size: 16pt;
-  max-width: 54vw;
-  margin-top: 36pt;
+    font-family: EB Garamond;
+    font-size: 16pt;
+    max-width: 54vw;
+    margin-top: 36pt;
 }
 
 .about-splash table {
-  font-family: EB Garamond;
-  font-size: 16pt;
-  margin: 36pt 0 42pt 0;
-  border-left: 32pt solid rgba(252, 245, 229, 0);
+    font-family: EB Garamond;
+    font-size: 16pt;
+    margin: 36pt 0 42pt 0;
+    border-left: 32pt solid rgba(252, 245, 229, 0);
 }
 
 td.label {
-  min-width: 128pt;
-  font-weight: bolder;
+    min-width: 128pt;
+    font-weight: bolder;
 }
 
 td.award-label {
-  min-width: 42pt;
+    min-width: 42pt;
 }
 
 td.position-label {
-  min-width: 64pt;
+    min-width: 64pt;
 }
 
 .chinese-name {
-  font-family: Ma Shan Zheng;
-  color: rgb(252, 245, 229);
-  font-size: 48pt;
-  margin: 0 0 0 0;
+    font-family: Ma Shan Zheng;
+    color: rgb(252, 245, 229);
+    font-size: 42pt;
+    margin: 0 0 0 0;
 }
 
 img.page-separator {
-  height: 64pt;
-  margin-top: -24pt;
+    height: 64pt;
+    margin-top: -24pt;
 }
 
 a.dragon-button {
-  font-size: 24pt;
-  color: rgb(252, 245, 229);
-  text-decoration: none;
-  font-weight: 800;
+    font-size: 24pt;
+    color: rgb(252, 245, 229);
+    text-decoration: none;
+    font-weight: 800;
 }
 
 a.dragon-button:hover {
-  font-family: Tangerine;
-  font-size: 36pt;
+    font-family: Tangerine;
+    font-size: 36pt;
 
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .projects-splash {
-  height: 100vh;
-  background-color: rgb(252, 245, 229);
-  padding-top: 64pt;
+    height: 100vh;
+    background-color: rgb(252, 245, 229);
+    padding-top: 64pt;
 }
 
 .experience-splash {
-  margin-top: -36pt;
-  height: 106vh;
-  background-color: black;
+    margin-top: -36pt;
+    height: 106vh;
+    background-color: black;
 }
 
 table.button-row {
-  margin-left: -36pt;
-  min-height: 100pt;
+    margin-left: -36pt;
+    min-height: 100pt;
 }
 
 table.button-row td {
-  min-width: 128pt;
-  max-width: 128pt;
-  text-align: center;
-  margin: 0 32pt 32pt 32pt;
-  vertical-align: top;
+    min-width: 128pt;
+    max-width: 128pt;
+    text-align: center;
+    margin: 0 32pt 32pt 32pt;
+    vertical-align: top;
 }
 
 h1.projects-header {
-  margin-top: 32pt;
+    margin-top: 32pt;
 }
 
 h1.experience-header {
-  margin-top: 42pt;
-  /* color: rgb(252, 245, 229); */
-  color: white;
+    margin-top: 42pt;
+    /* color: rgb(252, 245, 229); */
+    color: white;
 }
 
 /* animation */
@@ -234,190 +234,190 @@ h1.experience-header {
 } */
 
 .animatron-1 {
-  animation-duration: 8s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
 }
 
 .animatron-2 {
-  animation-duration: 8s;
-  animation-name: slideout;
-  animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-name: slideout;
+    animation-iteration-count: infinite;
 }
 
 /* end of animation */
 
 .section-header {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .animatron-jail {
-  max-width: 80vw;
-  padding: 36pt;
+    max-width: 80vw;
+    padding: 36pt;
 }
 
 /* X shape: https://www.onlygfx.com/wp-content/uploads/2018/07/8-grunge-x-brush-stroke-5.png */
 /* single brush: https://www.onlygfx.com/wp-content/uploads/2019/05/100-grunge-brush-strokes-39.png */
 /* circle: https://i.pinimg.com/originals/31/7f/52/317f52ff8083eaaca4bf31f671b7ffa0.png */
 .item-wrapper-1 {
-  padding: 32pt 24pt 32pt 24pt;
+    padding: 32pt 24pt 32pt 24pt;
 }
 
 .item-wrapper-1:hover {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/5b0324ea5b409b4a9180e326/1540643604649-LH21DNMH5GQSMQY2L8JE/mamaheaven+page+break+bottom.png);
-  background-size: 142pt;
-  background-repeat: no-repeat;
-  background-position: bottom;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5b0324ea5b409b4a9180e326/1540643604649-LH21DNMH5GQSMQY2L8JE/mamaheaven+page+break+bottom.png);
+    background-size: 142pt;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .item-wrapper-2 {
-  /* background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/06/dry-brush-stroke-2-1024x384.png); */
-  background-size: 500pt;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 32pt;
+    /* background-image: url(https://www.onlygfx.com/wp-content/uploads/2017/06/dry-brush-stroke-2-1024x384.png); */
+    background-size: 500pt;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 32pt;
 }
 
 .item-carousel {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .item-1 {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 
-  width: 200pt;
-  height: 240pt;
-  background-color: #fff;
-  /* box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24); */
-  transition: 0.24s;
-  font-family: EB Garamond;
+    width: 200pt;
+    height: 240pt;
+    background-color: #fff;
+    /* box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24); */
+    transition: 0.24s;
+    font-family: EB Garamond;
 
-  box-shadow:
+    box-shadow:
     /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
-    /* The second layer */ 0 -10px 0 -5px #fff,
-    /* The second layer shadow */ 0 -10px 1px -4px rgba(0, 0, 0, 0.15),
-    /* The third layer */ 0 -20px 0 -10px #fff,
-    /* The third layer shadow */ 0 -20px 1px -9px rgba(0, 0, 0, 0.15);
-  /* Padding for demo purposes */
-  padding: 12pt;
+        /* The second layer */ 0 -10px 0 -5px #fff,
+        /* The second layer shadow */ 0 -10px 1px -4px rgba(0, 0, 0, 0.15),
+        /* The third layer */ 0 -20px 0 -10px #fff,
+        /* The third layer shadow */ 0 -20px 1px -9px rgba(0, 0, 0, 0.15);
+    /* Padding for demo purposes */
+    padding: 12pt;
 }
 
 .item-1:hover {
-  transition: 0.24s;
-  margin: -5px 0 0 0;
+    transition: 0.24s;
+    margin: -5px 0 0 0;
 
-  box-shadow:
+    box-shadow:
     /* The top layer shadow */ 0 -1px 1px rgba(0, 0, 0, 0.15),
-    /* The second layer */ 0 -15px 0 -5px #fff,
-    /* The second layer shadow */ 0 -15px 1px -4px rgba(0, 0, 0, 0.15),
-    /* The third layer */ 0 -30px 0 -10px #fff,
-    /* The third layer shadow */ 0 -30px 1px -9px rgba(0, 0, 0, 0.15);
-  /* Padding for demo purposes */
+        /* The second layer */ 0 -15px 0 -5px #fff,
+        /* The second layer shadow */ 0 -15px 1px -4px rgba(0, 0, 0, 0.15),
+        /* The third layer */ 0 -30px 0 -10px #fff,
+        /* The third layer shadow */ 0 -30px 1px -9px rgba(0, 0, 0, 0.15);
+    /* Padding for demo purposes */
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .item-2 {
-  width: 200pt;
-  height: 240pt;
-  background-color: rgba(255, 255, 255, 0.96);
-  box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24);
-  transition: 0.24s;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 200pt;
+    height: 240pt;
+    background-color: rgba(255, 255, 255, 0.96);
+    box-shadow: 5px 5px 10px rgba(17, 17, 17, 0.24);
+    transition: 0.24s;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .item-cover {
-  width: 200pt;
-  height: 64pt;
+    width: 200pt;
+    height: 64pt;
 }
 
 .item-text {
-  padding: 12pt;
+    padding: 12pt;
 }
 
 .item-text p {
-  font-size: 12pt;
+    font-size: 12pt;
 }
 
 .item-title {
-  margin: 0;
-  font-family: EB Garamond;
-  font-size: 18pt;
+    margin: 0;
+    font-family: EB Garamond;
+    font-size: 18pt;
 }
 
 .item-tech {
-  display: flex;
-  flex-direction: row-reverse;
-  align-self: flex-end;
-  margin-top: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    margin-top: auto;
 }
 
 .item-tech span {
-  max-width: 72pt;
-  min-width: 48pt;
-  height: 18pt;
-  border: 1px solid black;
-  margin-right: 6pt;
-  border-radius: 32pt;
-  text-align: center;
-  padding: 0 5pt 0 5pt;
-  cursor: pointer;
+    max-width: 72pt;
+    min-width: 48pt;
+    height: 18pt;
+    border: 1px solid black;
+    margin-right: 6pt;
+    border-radius: 32pt;
+    text-align: center;
+    padding: 0 5pt 0 5pt;
+    cursor: pointer;
 }
 
 .item-tech span:hover {
-  color: rgb(252, 245, 229);
-  background-color: black;
-  transition: 0.5s;
+    color: rgb(252, 245, 229);
+    background-color: black;
+    transition: 0.5s;
 }
 
 .small-buffer-zone {
-  min-height: 80pt;
+    min-height: 80pt;
 }
 .large-buffer-zone {
-  min-height: 160pt;
+    min-height: 160pt;
 }
 
 h1.fun-title {
-  font-size: 48pt;
-  margin: 0;
+    font-size: 48pt;
+    margin: 0;
 }
 h1.funner-title {
-  font-family: Tangerine;
-  margin: 0;
-  font-size: 64pt;
+    font-family: Tangerine;
+    margin: 0;
+    font-size: 64pt;
 }
 .right-title {
-  margin-right: 5vw;
+    margin-right: 5vw;
 }
 
 .bonus {
-  font-family: EB Garamond;
-  font-size: 18pt;
-  max-width: 38vw;
-  margin-right: 5vw;
+    font-family: EB Garamond;
+    font-size: 18pt;
+    max-width: 38vw;
+    margin-right: 5vw;
 }
 
 .bonus li {
-  list-style-type: circle;
-  margin-bottom: 1em;
+    list-style-type: circle;
+    margin-bottom: 1em;
 }
 
 .bonus a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .bonus a:hover {
-  font-family: Tangerine;
-  font-size: 20pt;
+    font-family: Tangerine;
+    font-size: 20pt;
 }
 
 .bonus span {
-  font-size: 20pt;
+    font-size: 20pt;
 }
